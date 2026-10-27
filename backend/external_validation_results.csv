@@ -1,0 +1,21 @@
+website,url,prediction,confidence,access_status,feature_mode,response_time
+Google,https://www.google.com/,Phishing,89.83,Website accessible,URL + HTML features,4.11
+YouTube,https://www.youtube.com/,Phishing,75.99,Website accessible,URL + HTML features,1.37
+Microsoft,https://www.microsoft.com/,Phishing,87.14,Website inaccessible,URL features only,0.95
+GitHub,https://github.com/,Benign,74.74,Website accessible,URL + HTML features,1.27
+Wikipedia,https://www.wikipedia.org/,Benign,54.46,Website accessible,URL + HTML features,1.23
+Amazon,https://www.amazon.com/,Phishing,84.68,Website accessible,URL + HTML features,1.19
+Apple,https://www.apple.com/,Phishing,56.94,Website accessible,URL + HTML features,0.63
+Netflix,https://www.netflix.com/,Benign,91.12,Website accessible,URL + HTML features,2.44
+LinkedIn,https://www.linkedin.com/,Phishing,72.49,Website accessible,URL + HTML features,0.7
+Reddit,https://www.reddit.com/,Phishing,84.18,Website inaccessible,URL features only,0.36
+Yahoo,https://www.yahoo.com/,Phishing,61.37,Website accessible,URL + HTML features,0.91
+Bing,https://www.bing.com/,Phishing,83.48,Website accessible,URL + HTML features,0.6
+Adobe,https://www.adobe.com/,Phishing,83.73,Website inaccessible,URL features only,5.3
+Oracle,https://www.oracle.com/,Phishing,83.82,Website inaccessible,URL features only,0.36
+IBM,https://www.ibm.com/,Phishing,65.02,Website accessible,URL + HTML features,0.57
+Khan Academy,https://www.khanacademy.org/,Phishing,84.88,Website accessible,URL + HTML features,0.38
+Coursera,https://www.coursera.org/,Phishing,62.61,Website accessible,URL + HTML features,0.88
+CNN,https://www.cnn.com/,Benign,99.98,Website accessible,URL + HTML features,1.08
+BBC,https://www.bbc.com/,Phishing,52.97,Website accessible,URL + HTML features,0.57
+NASA,https://www.nasa.gov/,Benign,80.52,Website accessible,URL + HTML features,0.56

@@ -1,0 +1,97 @@
+TOPIC: PHISHING BASICS
+
+Phishing is a form of social engineering in which an attacker impersonates a legitimate organization or person to trick users into opening harmful links, visiting fraudulent websites, or submitting sensitive information such as credentials.
+
+Phishing websites can imitate trusted services and may request usernames, passwords, financial information, or other sensitive data.
+
+SOURCE: NIST Phishing Guidance
+
+
+TOPIC: SUSPICIOUS LINKS AND URLS
+
+Users should treat unexpected or suspicious links with caution. A link that appears to lead to a trusted service should be verified before being opened.
+
+A URL should be examined for signs that it does not correspond to the expected organization or service.
+
+SOURCE: NIST and CISA phishing guidance
+
+
+TOPIC: CREDENTIAL HARVESTING
+
+A phishing website may imitate a legitimate login page and ask the user to enter credentials. Attackers can use fraudulent login pages to obtain usernames and passwords.
+
+The presence of a login page or password field is therefore relevant webpage evidence when analyzing a suspected phishing page, although these features alone do not prove that a website is malicious.
+
+SOURCE: NIST phishing and password guidance; OWASP authentication guidance
+
+
+TOPIC: LOGIN FORMS AND PASSWORD FIELDS
+
+Login forms are common on legitimate websites, so the presence of a login form alone should not be treated as proof of phishing.
+
+Security analysis should consider additional evidence such as the URL, destination of the form submission, domain relationship, and other webpage characteristics.
+
+SOURCE: OWASP Authentication Cheat Sheet
+
+
+TOPIC: EXTERNAL FORM DESTINATIONS
+
+A webpage can contain forms that submit information to another location. In security analysis, the destination of an authentication form is important because credentials should be transmitted securely and to an intended trusted service.
+
+A form that submits sensitive information to an unexpected external destination can be a relevant indicator for further investigation.
+
+SOURCE: OWASP Authentication Cheat Sheet
+
+
+TOPIC: HTTPS
+
+HTTPS provides encrypted transport for web communication, but the presence of HTTPS alone does not establish that a website is legitimate.
+
+Phishing websites can also use HTTPS. Therefore, HTTPS should be treated as one feature among multiple indicators rather than as a standalone phishing or benign decision.
+
+SOURCE: CISA and OWASP guidance
+
+
+TOPIC: OPEN REDIRECTS
+
+Open redirects can be abused in phishing attacks. A link may begin with a legitimate domain and then redirect a user to an attacker-controlled website.
+
+Redirect behavior and destination domains can therefore be relevant when analyzing suspicious links.
+
+SOURCE: OWASP Open Redirect guidance
+
+
+TOPIC: URL OBFUSCATION
+
+Attackers may manipulate URLs to make suspicious destinations harder for users to recognize. Suspicious URL structure, unusual characters, unexpected parameters, or misleading destinations can be relevant evidence.
+
+URL characteristics should be evaluated together rather than treating one characteristic as definitive proof of phishing.
+
+SOURCE: NIST and CISA phishing guidance
+
+
+TOPIC: SENSITIVE INFORMATION REQUESTS
+
+Requests for sensitive information such as passwords, financial information, or other personal information are important phishing indicators when combined with suspicious communication or website characteristics.
+
+A request for sensitive information alone does not prove that a website is phishing because legitimate services also request sensitive information.
+
+SOURCE: NIST phishing guidance
+
+
+TOPIC: URGENCY AND SOCIAL ENGINEERING
+
+Phishing campaigns may create urgency or pressure users to act quickly, such as requesting immediate account verification or claiming that an account is compromised.
+
+Urgency should be considered contextual evidence rather than a standalone classification rule.
+
+SOURCE: NIST and CISA phishing guidance
+
+
+TOPIC: EVIDENCE INTERPRETATION
+
+No single webpage feature should automatically determine whether a website is phishing.
+
+A reliable analysis should consider multiple independent signals, including URL characteristics, webpage structure, forms, links, security properties, and contextual cybersecurity knowledge.
+
+SOURCE: NIST, CISA, and OWASP security guidance

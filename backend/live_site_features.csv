@@ -1,0 +1,6 @@
+website,url_length,domain_length,path_length,query_length,num_dots,num_hyphens,num_underscores,num_digits,num_special_chars,url_entropy,has_https,has_ip,suspicious_keyword_count,html_length,text_length,num_links,external_links,external_link_ratio,form_count,password_field_count,has_login_form,external_form_count,external_form_ratio
+https://www.google.com/,23,14,1,0,2,0,0,0,6,3.642489673166126,1,0,0,89546,216,20,4,0.2,1,0,0,0,0
+https://www.youtube.com/,24,15,1,0,2,0,0,0,6,3.7406015629507223,1,0,0,889020,153,14,1,0.07142857142857142,0,0,0,0,0
+https://www.microsoft.com/,26,17,1,0,2,0,0,0,6,3.6612262562697895,1,0,0,0,0,0,0,0.0,0,0,0,0,0
+https://github.com/,19,10,1,0,1,0,0,0,5,3.6421498816369042,1,0,0,576454,7655,140,30,0.21428571428571427,2,0,0,0,0
+https://www.wikipedia.org/,26,17,1,0,2,0,0,0,6,3.796217602590056,1,0,0,119573,9423,383,10,0.02610966057441253,1,0,0,0,0

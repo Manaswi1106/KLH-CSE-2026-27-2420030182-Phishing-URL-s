@@ -1,0 +1,7 @@
+Model,TN,FP,FN,TP
+Random Forest - 23 Engineered,415,85,71,429
+XGBoost - 23 Engineered,420,80,67,433
+CatBoost - 23 Engineered,419,81,69,431
+LightGBM - 23 Engineered,426,74,67,433
+LightGBM - 768 DistilBERT,396,104,74,426
+PhishXpert Hybrid - 791,432,68,49,451

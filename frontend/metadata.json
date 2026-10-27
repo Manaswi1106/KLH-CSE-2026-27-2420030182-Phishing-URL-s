@@ -1,0 +1,6 @@
+{
+  "name": "PhishXpert",
+  "description": "AI-Powered Detection of Phishing Websites Using Machine Learning and Explainable AI",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

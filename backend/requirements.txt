@@ -1,0 +1,15 @@
+fastapi
+uvicorn[standard]
+requests
+numpy
+beautifulsoup4
+urllib3
+pydantic
+joblib
+scikit-learn
+torch
+transformers
+shap
+lightgbm
+google-genai
+pandas
